@@ -1,2 +1,2 @@
 # prettier-config-heed
-Heed configuration for Prettier
+Prettier configuration for Heed Software

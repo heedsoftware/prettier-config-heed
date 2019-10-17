@@ -1,7 +1,7 @@
 {
   "name": "@heed/prettier-config-heed",
   "version": "0.0.0",
-  "description": "Heed organisational configuration for Prettier",
+  "description": "Prettier configuration for Heed Software",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -24,12 +24,15 @@
     "publish": "semantic-release"
   },
   "devDependencies": {
-    "@heed/eslint-plugin-heed": "3.0.1",
-    "commitizen": "^3.1.1",
-    "condition-circle": "^2.0.2",
-    "cz-conventional-changelog": "^2.1.0",
-    "eslint": "^5.16.0",
-    "prettier": "^1.17.0",
-    "semantic-release": "^15.13.12"
+    "@heed/eslint-config-heed": "6.0.1",
+    "commitizen": "3.1.1",
+    "condition-circle": "2.0.2",
+    "cz-conventional-changelog": "2.1.0",
+    "eslint": "6.5.1",
+    "prettier": "1.17.0",
+    "semantic-release": "15.13.12"
+  },
+  "peerDependencies": {
+    "prettier": ">= 1.17.0"
   }
 }
